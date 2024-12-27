@@ -9,14 +9,6 @@ import time
 
 print("This program will countdown to zero from a time (in seconds) you provide.")
 
-# start_time = int(input("Enter time"))
-
-# countdown(start_time)
-
-# def countdown(time_sec):
-
-# print(str(divmod(10, 3))) 
-
 def countdown(time_sec):
     while time_sec:
         mins, secs = divmod(time_sec, 60)
