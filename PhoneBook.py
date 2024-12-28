@@ -15,7 +15,7 @@ user_input     = ''
 print("\nWELCOME TO PHONE BOOK")
 print("\nAdd a contact")
 
-while (user_input != 'no'):
+while user_input != 'no':
     if(user_input != 'no'):
         
         # Get full name and phone number

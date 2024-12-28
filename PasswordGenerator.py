@@ -18,7 +18,7 @@ counter       = 0
 number_list   = 1
 password_bank = []
 
-while (counter < PASSWORD_COUNT):
+while counter < PASSWORD_COUNT:
 
     # Select and randomize characters, numbers, lower and uppercase letters from the arrays
     random_chars = ''.join(random.sample(all_characters, 16))
